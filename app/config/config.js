@@ -12,6 +12,8 @@ module.exports = {
     STATIC_DIR              : (process.env.STATIC_DIR || (path.join(__dirname, '../../uploads'))),
     TWITTER_CONSUMER_KEY    : (process.env.CONSUMER_KEY || 'y8szxb2vTxL3VQTKm4lLvQ'),
     TWITTER_CONSUMER_SECRET : (process.env.CONSUMER_SECRET || 'TCzdX9ff8iP4B3aKTNLw7W5yfoeDylXWpvQAnD9bIos'),
+    // TWITTER_CONSUMER_KEY    : (process.env.CONSUMER_KEY || '2gN0qd8cKZMbp14ZwrJ7fA'),
+    // TWITTER_CONSUMER_SECRET : (process.env.CONSUMER_SECRET || 'fqlvOlsjenOFUG8a58HW0RUwQ6O0wz9VYAZllPxg'),
     MONGO_URL: MONGO_URL,
     session: {
         key   : 'proudplace.sid',
