@@ -1,4 +1,5 @@
 module.exports = {
     ensureAuthenticated: require('./ensureAuthenticated'),
-    twitter            : require('./twitter')
+    twitter            : require('./twitter'),
+    facebook            : require('./facebook')
 };

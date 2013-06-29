@@ -9,11 +9,11 @@ var url       = require('url'),
 
 module.exports = {
     PORT                    : (process.env.PORT || 3000),
-    STATIC_DIR              : (process.env.STATIC_DIR || (path.join(__dirname, '../../uploads'))),
-    TWITTER_CONSUMER_KEY    : (process.env.CONSUMER_KEY || 'y8szxb2vTxL3VQTKm4lLvQ'),
-    TWITTER_CONSUMER_SECRET : (process.env.CONSUMER_SECRET || 'TCzdX9ff8iP4B3aKTNLw7W5yfoeDylXWpvQAnD9bIos'),
-    // TWITTER_CONSUMER_KEY    : (process.env.CONSUMER_KEY || '2gN0qd8cKZMbp14ZwrJ7fA'),
-    // TWITTER_CONSUMER_SECRET : (process.env.CONSUMER_SECRET || 'fqlvOlsjenOFUG8a58HW0RUwQ6O0wz9VYAZllPxg'),
+    STATIC_DIR              : (process.env.STATIC_DIR || (path.join(__dirname, '../../public/img/uploads'))),
+    TWITTER_CONSUMER_KEY    : (process.env.CONSUMER_KEY || 'ADYKO8XAM9m6gY50Nm1ng'),
+    TWITTER_CONSUMER_SECRET : (process.env.CONSUMER_SECRET || 'mpuzBZccE0GUjwSkSMBFyNYCdHojHAVVa87rz7gtHk'),
+    FACEBOOK_CLIENT_ID    : (process.env.CONSUMER_KEY || '554735134583042'),
+    FACEBOOK_CLIENT_SECRET : (process.env.CONSUMER_SECRET || 'c46d8663a85cbb11949e3606f692e3f6'),
     MONGO_URL: MONGO_URL,
     session: {
         key   : 'proudplace.sid',

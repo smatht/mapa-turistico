@@ -64,7 +64,7 @@ var MapView = Backbone.View.extend({
 
 		htmlPopup = '';
 		htmlPopup += '<div id="popupPlace">';
-		htmlPopup +='<img src=../../' + image + ' />';
+		htmlPopup +='<img src=/img/uploads/' + image + ' />';
 		htmlPopup +='<p id="popupName">' + name + '</p>';
 		htmlPopup += '<p><i class="icon-map-marker"></i> ' + city + ', ' + country + '.</p>';
 		htmlPopup += '<p id="popupDet"><a href="">Ver mas detalles...</a></p>';
